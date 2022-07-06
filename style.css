@@ -27,6 +27,12 @@ section{
     margin-top: 20px;
     border: none;
 }
+.flex-item{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
 
 /****** banner style ******/
 
@@ -93,7 +99,7 @@ section{
     font-size: 60px;
     text-align: center;
 }
-#plan-area p{
+#plan-area .plan-header-text{
     font-size: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -123,6 +129,11 @@ section{
 .education{
     background-color: #a29bfe;
 }
+
+/****** global donation area ******/
+
+
+
 
 /****** update area ******/
 
