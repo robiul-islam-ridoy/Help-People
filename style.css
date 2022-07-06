@@ -9,7 +9,7 @@ section{
     padding: 50px 0;
 }
 .half-container{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 .container{
@@ -28,9 +28,11 @@ section{
     border: none;
 }
 
+/****** banner style ******/
+
 
 #banner-area{
-    background-image:  url(images/donation13.jpg);
+    background-image: linear-gradient(#000000b3, #000000b3), url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -69,7 +71,20 @@ section{
     border: none;
     border-bottom: 1px solid #DADADA;
 }
-
+.ammounts p span{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #FAFAFA;
+    color: #707070;
+    padding: 33px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.ammounts p .active{
+    background-color: #FFEEEE;
+    border: 3px solid #FF5959;
+}
 /****** plan area ******/
 #plan-area{
     background-color: #dcdde1;
@@ -109,6 +124,8 @@ section{
     background-color: #a29bfe;
 }
 
+/****** update area ******/
+
 #update-area h1{
     font-size: 60px;
     text-align: center;
@@ -121,13 +138,26 @@ section{
     background-color: #FFF4D6;
     text-align: center;
 }
+.form-area .form-box{
+    padding: 75px 0;
+}
+.form-area a{
+    width: 20%;
+    margin-top: 0;
+    border-radius: 0;
+}
 .form-area input{
+    font-size: 20px;
     border: none;
     background-color: #D9D9D9;
     color: #AA9F9F;
-    padding: 20px 50px;
+    padding: 16px 10px;
     margin: 0;
+    width: 40%;
 }
+
+/****** footer area ******/
+
 footer{
     background-color: #0B0D17;
     text-align: center;
