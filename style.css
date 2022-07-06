@@ -1,0 +1,131 @@
+/****** basic style ******/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.half-container{
+    width: 60%;
+    margin: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+}
+
+
+#banner-area{
+    background-image:  url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    color: #ededed;
+    padding: 100px 0;
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.banner-text p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/****** donate area ******/
+
+#donate-area{
+    text-align: center;
+}
+#donate-area h1{
+    font-size: 60px;
+}
+#donate-area p{
+    font-size: 20px;
+}
+#donate-area input{
+    width: 80%;
+    display: block;
+    margin: auto;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+}
+
+/****** plan area ******/
+#plan-area h1{
+    font-size: 60px;
+    text-align: center;
+}
+#plan-area p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.plans{
+    display: flex;
+}
+.single-plan{
+    width: 30%;
+    padding: 50px 10px 20px 20px;
+    margin-left: 3.33%;
+    border-radius: 10px;
+}
+.single-plan img{
+    height: 65px;
+}
+.single-plan h3{
+    font-size: 25px;
+}
+.food{
+    background-color: #ffeaa7;
+}
+.medicine{
+    background-color: #fab1a0;
+}
+.education{
+    background-color: #a29bfe;
+}
+
+#update-area h1{
+    font-size: 60px;
+    text-align: center;
+}
+#update-area p{
+    font-size: 20px;
+    text-align: center;
+}
+.form-area{
+    background-color: #FFF4D6;
+    text-align: center;
+}
+.form-area input{
+    border: none;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    padding: 20px 50px;
+    margin: 0;
+}
+footer{
+    background-color: #0B0D17;
+    margin: 0;
+}
+footer h4{
+    font-size: 30px;
+    color: #487eb0;
+}
