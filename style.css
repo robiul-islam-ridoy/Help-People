@@ -5,6 +5,9 @@ body{
     margin: 0;
     padding: 0;
 }
+section{
+    padding: 50px 0;
+}
 .half-container{
     width: 60%;
     margin: auto;
@@ -68,14 +71,17 @@ body{
 }
 
 /****** plan area ******/
+#plan-area{
+    background-color: #dcdde1;
+}
 #plan-area h1{
     font-size: 60px;
     text-align: center;
 }
 #plan-area p{
     font-size: 20px;
-    text-align: center;
     padding-bottom: 20px;
+    text-align: center;
 }
 .plans{
     display: flex;
@@ -85,6 +91,7 @@ body{
     padding: 50px 10px 20px 20px;
     margin-left: 3.33%;
     border-radius: 10px;
+    text-align: left;
 }
 .single-plan img{
     height: 65px;
@@ -123,9 +130,13 @@ body{
 }
 footer{
     background-color: #0B0D17;
-    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px 0;
 }
 footer h4{
     font-size: 30px;
     color: #487eb0;
+    margin: 0;
+    padding: 20px 0;
 }
